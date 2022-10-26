@@ -12,10 +12,10 @@ public class Author {
     public String getSecondName() {
         return secondName;
     }
+
     public String getFirstName() {
         return firstName;
     }
-
 
 
 }
