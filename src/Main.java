@@ -12,7 +12,7 @@ public class Main {
         //System.out.println("Название книги - " + book.getNameBook() + " Автор книги - " + book.getNameAuthor() + ". Дата издательства - " + book.getYearBook());
         //System.out.println("Название книги - " + book1.getNameBook() + " Автор книги - " + book1.getNameAuthor() + ". Дата издательства - " + book1.getYearBook());
         System.out.println(book.equals(book1));
-
+        System.out.println(book.hashCode());
     }
 
 }
