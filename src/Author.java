@@ -10,11 +10,19 @@ public class Author {
     }
 
     public String getSecondName() {
+
         return secondName;
     }
 
     public String getFirstName() {
+
         return firstName;
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + secondName;
+
     }
 
 
